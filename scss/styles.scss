@@ -1,0 +1,59 @@
+@import "normalize";
+@import "susy";
+
+/* Clearfix Mixin */
+@mixin cf {
+  &:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+}
+
+//Susy Map
+$susy:(
+  columns: 12,
+  container: 1270px,
+  debug:(image:show),
+  global-box-sizing: border-box
+);
+
+@include border-box-sizing;
+
+.wrap {
+  @include container();
+}
+
+/* Variables */
+/* Colors */
+$color1: rgba(250, 231, 179, 0.8);;
+$color2: rgba(250, 231, 179, 0.8);
+$color3: rgba(240, 150, 113, 0.8);
+$color4: rgba(234, 159, 195, 0.8);
+
+/* Breakpoints */
+$bp-s: 425px;
+$bp-m: 770px;
+$bp-l: 1100px;
+
+
+/*Starter Css */
+body{
+  padding: 0;
+  margin: 0;
+}
+ul,
+ol,
+li,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+img {
+  max-width: 100%;
+  height: auto;
+}
