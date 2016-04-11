@@ -422,7 +422,7 @@ table {
   box-sizing: border-box;
 }
 
-/* line 23, ../scss/styles.scss */
+/* line 24, ../scss/styles.scss */
 .wrap {
   max-width: 1270px;
   margin-left: auto;
@@ -439,13 +439,13 @@ table {
 /* Colors */
 /* Breakpoints */
 /*Starter Css */
-/* line 41, ../scss/styles.scss */
+/* line 42, ../scss/styles.scss */
 body {
   padding: 0;
   margin: 0;
 }
 
-/* line 45, ../scss/styles.scss */
+/* line 46, ../scss/styles.scss */
 ul,
 ol,
 li,
@@ -456,67 +456,67 @@ h3 {
   padding: 0;
 }
 
-/* line 54, ../scss/styles.scss */
+/* line 55, ../scss/styles.scss */
 li {
   list-style: none;
   text-decoration: none;
 }
 
-/* line 58, ../scss/styles.scss */
+/* line 59, ../scss/styles.scss */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 63, ../scss/styles.scss */
+/* line 66, ../scss/styles.scss */
 header {
   width: 100%;
   height: 10vh;
   background-color: darkgray;
 }
 
-/* line 68, ../scss/styles.scss */
+/* line 71, ../scss/styles.scss */
 .logo {
   padding: 0 0 0 20px;
 }
 
-/* line 71, ../scss/styles.scss */
+/* line 74, ../scss/styles.scss */
 .nav-list {
   display: block;
   float: right;
 }
-/* line 74, ../scss/styles.scss */
+/* line 77, ../scss/styles.scss */
 .nav-list li {
   list-style: none;
   display: inline;
   text-decoration: none;
   padding-right: 20px;
 }
-/* line 79, ../scss/styles.scss */
+/* line 82, ../scss/styles.scss */
 .nav-list li a {
   background: transparent;
   text-decoration: none;
   color: black;
   font-size: 1em;
 }
-/* line 85, ../scss/styles.scss */
+/* line 88, ../scss/styles.scss */
 .nav-list li a:hover {
   color: white;
 }
 
-/* line 90, ../scss/styles.scss */
+/* line 96, ../scss/styles.scss */
 .hero img {
   width: 100%;
   height: auto;
 }
 
-/* line 94, ../scss/styles.scss */
+/* line 103, ../scss/styles.scss */
 p.greeting {
   width: 91.52542%;
   padding-left: 8.47458%;
 }
 
-/* line 98, ../scss/styles.scss */
+/* line 107, ../scss/styles.scss */
 h1.greeting {
   display: block;
   padding: 50px 0px;
@@ -524,7 +524,7 @@ h1.greeting {
   text-align: center;
 }
 
-/* line 104, ../scss/styles.scss */
+/* line 116, ../scss/styles.scss */
 .image-break {
   margin: 10vh 0;
   width: 100%;
@@ -532,132 +532,122 @@ h1.greeting {
   min-height: 150px;
 }
 
-/* line 110, ../scss/styles.scss */
+/* line 125, ../scss/styles.scss */
 .service {
   width: 40.67797%;
   float: left;
   margin-right: 1.69492%;
 }
-
-/* line 113, ../scss/styles.scss */
-.service-1-title {
+/* line 127, ../scss/styles.scss */
+.service h2 {
   width: 37.5%;
   padding-left: 8.47458%;
 }
-
-/* line 117, ../scss/styles.scss */
-.service-1-p {
+/* line 131, ../scss/styles.scss */
+.service p {
   width: 100%;
   display: inline-block;
 }
 
-/* line 121, ../scss/styles.scss */
+/* line 136, ../scss/styles.scss */
 .service-1-img {
   width: 32.20339%;
   float: right;
   margin-right: 0;
 }
 
-/* line 124, ../scss/styles.scss */
+/* line 140, ../scss/styles.scss */
 .service-2-padding {
   padding-top: 15vh;
 }
 
-/* line 127, ../scss/styles.scss */
+/* line 143, ../scss/styles.scss */
 .service-2 {
   width: 40.67797%;
   float: right;
   margin-right: 0;
 }
-
-/* line 130, ../scss/styles.scss */
-.service-2-title {
+/* line 145, ../scss/styles.scss */
+.service-2 h2 {
   width: 37.5%;
   padding-left: 8.47458%;
 }
-
-/* line 134, ../scss/styles.scss */
-.service-2-p {
+/* line 149, ../scss/styles.scss */
+.service-2 p {
   width: 100%;
   display: inline-block;
 }
 
-/* line 138, ../scss/styles.scss */
+/* line 155, ../scss/styles.scss */
 .service-2-img {
   width: 32.20339%;
   float: left;
   margin-right: 1.69492%;
 }
 
-/* line 141, ../scss/styles.scss */
-.widget {
-  width: 24.05063%;
+/* line 161, ../scss/styles.scss */
+.blurb-section {
+  margin: 10vh auto;
+}
+
+/* line 164, ../scss/styles.scss */
+.blurb {
+  width: 23.72881%;
   float: left;
   height: 30vh;
+  background: gray;
 }
 /* line 66, ../../../../../tools/ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
-.widget:nth-child(4n + 1) {
+.blurb:nth-child(4n + 1) {
   margin-left: 0;
   margin-right: -100%;
   clear: both;
   margin-left: 0;
 }
 /* line 66, ../../../../../tools/ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
-.widget:nth-child(4n + 2) {
-  margin-left: 25.31646%;
+.blurb:nth-child(4n + 2) {
+  margin-left: 25.42373%;
   margin-right: -100%;
   clear: none;
 }
 /* line 66, ../../../../../tools/ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
-.widget:nth-child(4n + 3) {
-  margin-left: 50.63291%;
+.blurb:nth-child(4n + 3) {
+  margin-left: 50.84746%;
   margin-right: -100%;
   clear: none;
 }
 /* line 66, ../../../../../tools/ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
-.widget:nth-child(4n + 4) {
-  margin-left: 75.94937%;
+.blurb:nth-child(4n + 4) {
+  margin-left: 76.27119%;
   margin-right: -100%;
   clear: none;
 }
 
-/* line 145, ../scss/styles.scss */
-.blurbs {
-  margin: 10vh 0;
-  bottom: 0;
-  width: 100%;
-}
-
-/* line 150, ../scss/styles.scss */
-.widget {
-  background: gray;
-}
-
-/* line 153, ../scss/styles.scss */
+/* line 172, ../scss/styles.scss */
 .contact-us {
   margin-bottom: 10vh;
 }
 
-/* line 156, ../scss/styles.scss */
+/* line 175, ../scss/styles.scss */
 .contact-title, .contact-p {
   text-align: center;
 }
 
-/* line 159, ../scss/styles.scss */
+/* line 181, ../scss/styles.scss */
 footer {
   height: 6vh;
   width: 100%;
   background-color: gray;
 }
 
-/* line 164, ../scss/styles.scss */
+/* line 186, ../scss/styles.scss */
 .trademark {
   display: inline;
   float: left;
   padding-left: 120px;
 }
 
-/* line 169, ../scss/styles.scss */
+/* line 191, ../scss/styles.scss */
 .social-media {
   display: flex;
   float: right;
@@ -665,7 +655,7 @@ footer {
   padding-top: 15px;
 }
 
-/* line 175, ../scss/styles.scss */
+/* line 197, ../scss/styles.scss */
 .social-link {
   padding-top: 15px;
   padding-right: 20px;
@@ -673,34 +663,32 @@ footer {
 }
 
 @media (max-width: 425px) {
-  /* line 182, ../scss/styles.scss */
+  /* line 206, ../scss/styles.scss */
   h1.greeting {
     font-size: 3rem;
   }
 
-  /* line 185, ../scss/styles.scss */
+  /* line 209, ../scss/styles.scss */
   .service {
     width: 83.05085%;
     float: left;
     margin-right: 1.69492%;
     padding-left: 8.47458%;
   }
-
-  /* line 189, ../scss/styles.scss */
-  .service-1-title {
+  /* line 212, ../scss/styles.scss */
+  .service h2 {
     width: 100%;
     text-align: center;
   }
-
-  /* line 194, ../scss/styles.scss */
-  .service-1-p {
+  /* line 217, ../scss/styles.scss */
+  .service p {
     width: 100%;
     padding-left: 8.47458%;
     display: inline-block;
     text-align: center;
   }
 
-  /* line 200, ../scss/styles.scss */
+  /* line 225, ../scss/styles.scss */
   .service-1-img {
     width: 91.52542%;
     float: left;
@@ -708,33 +696,47 @@ footer {
     padding-left: 8.47458%;
   }
 
-  /* line 204, ../scss/styles.scss */
+  /* line 229, ../scss/styles.scss */
   .service-2 {
     width: 83.05085%;
     float: left;
     margin-right: 1.69492%;
     padding-left: 8.47458%;
   }
-
-  /* line 208, ../scss/styles.scss */
-  .service-2-title {
+  /* line 232, ../scss/styles.scss */
+  .service-2 h2 {
     width: 100%;
     text-align: center;
   }
-
-  /* line 213, ../scss/styles.scss */
-  .service-2-p {
+  /* line 237, ../scss/styles.scss */
+  .service-2 p {
     width: 100%;
     padding-left: 8.47458%;
     display: inline-block;
     text-align: center;
   }
 
-  /* line 219, ../scss/styles.scss */
+  /* line 245, ../scss/styles.scss */
   .service-2-img {
     width: 91.52542%;
     float: left;
     margin-right: 1.69492%;
     padding-left: 8.47458%;
+  }
+
+  /* line 249, ../scss/styles.scss */
+  .blurb {
+    width: 83.05085%;
+    float: left;
+    margin-left: 1.69492%;
+    display: block;
+    height: 30vh;
+  }
+  /* line 66, ../../../../../tools/ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  .blurb:nth-child(1n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
   }
 }
